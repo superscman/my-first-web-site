@@ -1,17 +1,28 @@
   body {
     margin:0;
   }
+  a {
+    text-decoration: none;
+  }
+  li {
+    color:black;
+  }
+  a, a:visited, a:active {
+  color: inherit;
+}
+A:hover {
+  COLOR: pink; TEXT-DECORATION: none; font-weight: none
+}
   h1 {
     font-size: 45px;
+    color:white;
     text-align: center;
     border-bottom: 1px solid gray;
     margin:0;
     padding:50px;
     padding-bottom: 60px;
-  }
-  a {
-    color:black;
-    text-decoration: none;
+    background-image : url('C:/Users/사용자/Desktop/web/h1mainimage.jpg');
+    background-size: cover;
   }
   ol {
     border-right:1px solid gray;
